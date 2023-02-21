@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Slabo 27px', serif;
+}
+/* Header Style */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #D5D2D2;
+    padding: 15px;
+    color: #F94C30;
+    
+}
+.menu-items {
+    display: flex;
+    list-style: none;
+}
+.menu-items li{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 5px;
+    margin-right: 10px;
+}
+.banner-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("asset/image/background.jpg"),
+    linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8));
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    color: white;
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700px;
+}
+.primary-color{
+    color: #F94C30;
+}
+.btn{
+    margin: 5px;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+
+}
+.btn-discover{
+    background-color:#F94C30;
+    color: #D5D2D2;
+}
+.btn-hire{
+   color: #F94C30;
+}
