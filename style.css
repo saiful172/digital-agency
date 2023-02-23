@@ -70,7 +70,7 @@
 }
 
 /* Service styles */
-.service-list {
+.service-container {
     width: 100%;
     height: 100vh;
     background-image: url('asset/image/footer-bg.png'),
@@ -78,7 +78,15 @@
     background-blend-mode: overlay;
     color: white;
     padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+.service-left-container{
+    width: 50%;
+}
+
 
 .service-btn {
     border-radius: 25px;
@@ -126,4 +134,25 @@
 }
 .more-details{
     padding: 20px;
+}
+.service-up{
+    display: flex;
+}
+.service-down{
+    display: flex;
+}
+.service{
+    padding: 10px;
+    background-color: white;
+    box-shadow: 4px 4px 8px gray;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+}
+.service-logo{
+    width: 50%;
+    padding-bottom: 10px;
 }
